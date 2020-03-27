@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/sign_up_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="user profile"
+        android:layout_gravity="center"
+        android:textSize="80sp"/>
+    
+    <EditText
+        android:id="@+id/user_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:hint="enter message" />
+
+
+    <Button
+        android:id="@+id/log_out_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="log out"
+        android:layout_gravity="center" />
+
+</LinearLayout>

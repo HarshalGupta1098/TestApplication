@@ -9,7 +9,8 @@
         android:layout_height="wrap_content"
         android:text="hi"
         android:textSize="100dp"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal" />
 
     <Button
         android:id="@+id/signup_mainactivity"

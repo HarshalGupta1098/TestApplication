@@ -16,6 +16,8 @@
             android:label="Sign up"/>
         <activity android:name=".LogInActivity"
             android:label="Log in"/>
+        <activity android:name=".ProfileActivity"
+            android:label="User Profile" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
